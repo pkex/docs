@@ -44,7 +44,7 @@ API 访问密钥（AccessKey） 您申请的API Key。
 例：
 
 ```markdown
-https://www.PKEX.com/coinex-interface/coinex-interface/api/v1/account/assets?timestamp=1530864522611&nonce=5bl727&accessKey=eoxxxxxxxxxxxxxxxxxxSoi3xxxxxxxxxANSbsXcP&signature=calculated value
+https://www.pkex.com/coinex-interface/coinex-interface/api/v1/account/assets?timestamp=1530864522611&nonce=5bl727&accessKey=eoxxxxxxxxxxxxxxxxxxSoi3xxxxxxxxxANSbsXcP&signature=calculated value
 ```
 
 ### 签名运算
@@ -63,7 +63,7 @@ API 请求在通过 Internet
 请求说明
 --------
 
-1.  访问地址 [https://www.PKEX.com]
+1.  访问地址 [https://www.pkex.com]
 
 2.  在请求路径前都加上项目路径*/coinex-interface*
 
@@ -110,7 +110,7 @@ key。Key为timestamp，value为当前系统时间戳。Key为nonce,value为随�
 例：
 
 ```markdown
-https://www.PKEX.com/coinex-interface/api/v1/account/assets?accessKey=eoCmCQCSVg2dtezoZYHBKBh0IySoi3eQ9igzwa2YhuIU2cnI22nksk4LANSbsXcP&nonce=ok1iie&signature=0264197b2810443b5a29308eddbf3d79&timestamp=1532164460267
+https://www.pkex.com/coinex-interface/api/v1/account/assets?accessKey=eoCmCQCSVg2dtezoZYHBKBh0IySoi3eQ9igzwa2YhuIU2cnI22nksk4LANSbsXcP&nonce=ok1iie&signature=0264197b2810443b5a29308eddbf3d79&timestamp=1532164460267
 ```
 
 ### 配置信息
